@@ -51,6 +51,8 @@ function App() {
     cryptoChartData: [],
   });
 
+  console.log("hei");
+
   const [isRolling, setIsRolling] = useState<boolean>(false);
   const [expected, setExpected] = useState<number[]>([]);
   const pValuesRegular = pValueGenerator(results.regResults, expected);

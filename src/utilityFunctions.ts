@@ -34,7 +34,6 @@ export function getRandomIntInclusive(min: number, max: number) {
   crypto.getRandomValues(randomBuffer);
 
   const randomNumber = randomBuffer[0] / (0xffffffff + 1);
-  console.log(randomBuffer);
 
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -42,7 +41,6 @@ export function getRandomIntInclusive(min: number, max: number) {
 }
 
 export function averaging(resArray: number[][], numberOfTests: number) {
-  console.log(resArray, numberOfTests);
   return resArray.reduce((acc, el) => {
     return [
       ...el.map((el, i) => {
@@ -124,6 +122,5 @@ export function randomResults(
       );
     return absolute;
   });
-  console.log(resArray);
   return resArray;
 }

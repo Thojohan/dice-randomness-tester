@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import ErrorMessage from "./ErrorMessage";
+import Spinner from "./Spinner";
 
 export type Average = number[];
 
@@ -11,7 +12,11 @@ const Form = styled.form`
   justify-content: space-around;
   align-self: center;
   width: 60%;
+  padding: 10px;
+  border-radius: 10px;
   text-align: center;
+  background-color: #eceae6;
+  box-shadow: 2px 2px 2px inset lightgrey;
 
   @media (max-width: 500px) {
     flex-direction: column;
@@ -22,7 +27,7 @@ const Select = styled.select`
   border-style: hidden;
   background-color: #e1dddd;
   box-shadow: 3px 3px 3px inset lightgrey;
-  border-radius: 10%;
+  border-radius: 5px;
   text-align: center;
   padding: 3px;
   @media (max-width: 500px) {
@@ -34,7 +39,7 @@ const Input = styled.input`
   border-style: hidden;
   box-shadow: 3px 3px 3px inset lightgrey;
   background-color: #e1dddd;
-  border-radius: 10%;
+  border-radius: 5px;
   text-align: center;
   padding: 3px;
   @media (max-width: 500px) {
@@ -55,7 +60,7 @@ const Button = styled.button`
   box-shadow: 3px 3px 3px inset lightgrey;
   background-color: #e1dddd;
   margin-left: 10px;
-  border-radius: 10%;
+  border-radius: 5px;
   max-height: 3rem;
   padding: 4px;
   padding-right: 7px;
@@ -110,7 +115,6 @@ function InputForm({
   useEffect(() => {
     const myWorker = new Worker("src/calculate.worker.ts", { type: "module" });
     myWorker.onmessage = function (event) {
-      console.log("Received result from worker:", event.data);
       const {
         chartData,
         cryptoChartData,
@@ -118,8 +122,6 @@ function InputForm({
         cryptographicResArray,
         expected,
       } = event.data;
-
-      console.log(resArray, cryptographicResArray);
 
       setResults({
         regResults: resArray,
@@ -152,59 +154,10 @@ function InputForm({
     if (worker) {
       worker.postMessage({ rangeCount, batchCount, rollCount, cheatDice });
     }
-
-    // const resArray = randomResults(batchCount, rollCount, rangeCount);
-    // const crypthographicResArray = randomResults(
-    //   batchCount,
-    //   rollCount,
-    //   rangeCount,
-    //   "crypto"
-    // );
-    // const crypthograhicResArray = new Array(batchCount)
-    //   .fill(undefined)
-    //   .map((_el) => {
-    //     const inputArray = new Array(rollCount)
-    //       .fill(null)
-    //       .map((_el) => getRandomIntInclusive(1, rangeCount));
-    //
-    //     const absolute = new Array(rangeCount)
-    //       .fill(undefined)
-    //       .map(
-    //         (_el, i) => inputArray.filter((value) => value === i + 1).length
-    //       );
-    //     return absolute;
-    //   });
-    //
-    // console.log(crypthograhicResArray);
-    // const resArray = new Array(batchCount).fill(undefined).map((_el) => {
-    //   const inputArray = new Array(rollCount)
-    //     .fill(undefined)
-    //     .map((_el) => Math.floor(Math.random() * rangeCount + 1));
-    //
-    //   const absolute = new Array(rangeCount)
-    //     .fill(undefined)
-    //     .map((_el, i) => inputArray.filter((value) => value === i + 1).length);
-    //   return absolute;
-    // });
-
-    //const averageThrows = averaging(resArray, batchCount);
-    //const chartData = generateChartData(averageThrows, rollCount);
-    //const cryptoAverageThrows = averaging(crypthographicResArray, batchCount);
-    //const cryptoChartData = generateChartData(cryptoAverageThrows, rollCount);
-    //const expected = averageThrows.map((_el) => rollCount / rangeCount);
-    // setChartData({
-    //   regChartData: chartData,
-    //   cryptoChartData: cryptoChartData,
-    // });
-    // setResults({
-    //   regResults: resArray,
-    //   cryptoResults: crypthographicResArray,
-    // });
-    // setExpected(expected);
-    // setIsRolling(false);
   }
-  console.log(errors);
+
   if (Object.keys(errors).length > 0) return <ErrorMessage />;
+  if (isLoading) return <Spinner />;
 
   return (
     <Form onSubmit={handleSubmit(submitHandler)}>

@@ -19,6 +19,7 @@ import { colourPicker } from "./utilityFunctions";
 const Div = styled.div`
   display: flex;
   justify-content: center;
+  margin-right: 10px;
 `;
 
 const CustomTooltip = styled.div`
@@ -56,7 +57,7 @@ function AggregateBarChart({
 
   const renderBarChart = (
     <Div>
-      <BarChart width={500} height={250} data={chartData}>
+      <BarChart width={450} height={250} data={chartData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="dataName" />
         <YAxis padding={{ bottom: 1 }} />

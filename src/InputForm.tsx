@@ -113,7 +113,9 @@ function InputForm({
   const [worker, setWorker] = useState<Worker | null>(null);
 
   useEffect(() => {
-    const myWorker = new Worker("src/calculate.worker.ts", { type: "module" });
+    // const myWorker = new Worker("calculate.worker.ts", { type: "module" });
+    const url = new URL("calculate.worker.ts", import.meta.url);
+    const myWorker = new Worker(url, { type: "module" });
     myWorker.onmessage = function (event) {
       const {
         chartData,

@@ -5290,7 +5290,7 @@ Error generating stack: `+a.message+`
   margin-top: 0px;
   margin-bottom: 5px;
   text-align: center;
-  background-image: url("/dice-background2.png");
+  background-image: url("/public/dice-background2.png");
   padding-top: 12px;
   padding-bottom: 8px;
 `,QV=Ne.p`

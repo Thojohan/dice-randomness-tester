@@ -50,7 +50,6 @@ function App() {
     regChartData: [],
     cryptoChartData: [],
   });
-  console.dir(results);
 
   const [isRolling, setIsRolling] = useState<boolean>(false);
   const [expected, setExpected] = useState<number[]>([]);

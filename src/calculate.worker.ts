@@ -5,7 +5,6 @@ import {
 } from "./utilityFunctions";
 
 onmessage = function (event) {
-  console.log("in web worker beginning");
   const { batchCount, rollCount, rangeCount, cheatDice } = event.data;
   const resArray = randomResults(batchCount, rollCount, rangeCount, cheatDice);
   const cryptographicResArray = randomResults(
@@ -28,5 +27,4 @@ onmessage = function (event) {
     cryptoChartData,
     expected,
   });
-  console.log("in web worker end");
 };

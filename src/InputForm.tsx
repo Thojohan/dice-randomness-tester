@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import ErrorMessage from "./ErrorMessage";
 import Spinner from "./Spinner";
-
+import Worker from "./calculate.worker.ts?worker";
 export type Average = number[];
 
 const Form = styled.form`
@@ -111,11 +111,13 @@ function InputForm({
   } = useForm<FormData>();
 
   const [worker, setWorker] = useState<Worker | null>(null);
-
+  console.log("before useffect in InputForm");
   useEffect(() => {
     // const myWorker = new Worker("calculate.worker.ts", { type: "module" });
-    const url = new URL("calculate.worker.ts", import.meta.url);
-    const myWorker = new Worker(url, { type: "module" });
+
+    //const url = new URL("./calculate.worker.ts", import.meta.url);
+    //const myWorker = new Worker(url, { type: "module" });
+    const myWorker = new Worker();
     myWorker.onmessage = function (event) {
       const {
         chartData,
@@ -136,7 +138,7 @@ function InputForm({
       setExpected(expected);
       setIsRolling(false);
     };
-
+    console.log("in useffect inputform");
     setWorker(myWorker);
 
     return () => {

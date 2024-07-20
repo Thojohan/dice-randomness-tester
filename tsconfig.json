@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/calculate.worker.ts", "dice-background2.png"],
+
+  // ["src", "src/calculate.worker.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

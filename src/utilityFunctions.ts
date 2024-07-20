@@ -1,6 +1,7 @@
 import gammainc from "@stdlib/math-base-special-gammainc";
 
 export function pValueGenerator(results: number[][], expected: number[]) {
+  console.log("in pValueGenerator");
   const pValues = results.map((obs) => {
     function chiSquareTest(obs: number[], exp: number[]): number {
       let chiSquare = 0;
@@ -101,6 +102,7 @@ export function randomResults(
   cheatDice: number = 0,
   method: string = ""
 ) {
+  console.log("beginning randomResult");
   const resArray = new Array(batchCount).fill(undefined).map((_el) => {
     const inputArray = new Array(rollCount).fill(null).map((_el) => {
       if (method === "crypto") return getRandomIntInclusive(1, rangeCount);

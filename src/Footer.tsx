@@ -22,7 +22,7 @@ function Footer() {
           Check out the{" "}
           <a
             href={
-              "https://github.com/Thojohan/dice-randomness-tester/edit/main/README.md"
+              "https://github.com/Thojohan/dice-randomness-tester/blob/main/README.md"
             }
           >
             documentation

@@ -110,7 +110,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Or=_r,Nr=Tr;function Lr(r){return r===Or||r===Nr}var Rr=Lr;/**
+*/var Or=_r,Nr=Tr;function Lr(r){return r===Or||r===Nr}var Pr=Lr;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -126,7 +126,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Pr=Rr,Gr=Pr;/**
+*/var Rr=Pr,Gr=Rr;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -318,7 +318,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var la=oa,va=la;/**
+*/var va=oa,la=va;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -334,7 +334,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var M=va,sa=typeof M=="function"?M.toStringTag:"",fa=sa;/**
+*/var M=la,sa=typeof M=="function"?M.toStringTag:"",fa=sa;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -478,7 +478,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var La=typeof Uint32Array=="function"?Uint32Array:void 0,Ra=La;/**
+*/var La=typeof Uint32Array=="function"?Uint32Array:void 0,Pa=La;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -494,7 +494,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Pa(){throw new Error("not implemented")}var Ga=Pa;/**
+*/function Ra(){throw new Error("not implemented")}var Ga=Ra;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -510,7 +510,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Va=Na,Ma=Ra,Wa=Ga,S;Va()?S=Ma:S=Wa;var c=S;/**
+*/var Va=Na,Ma=Pa,Wa=Ga,S;Va()?S=Ma:S=Wa;var c=S;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -654,7 +654,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ti=g,oi=typeof Uint8Array=="function";function li(r){return oi&&r instanceof Uint8Array||ti(r)==="[object Uint8Array]"}var vi=li;/**
+*/var ti=g,oi=typeof Uint8Array=="function";function vi(r){return oi&&r instanceof Uint8Array||ti(r)==="[object Uint8Array]"}var li=vi;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -670,7 +670,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var si=vi,fi=si;/**
+*/var si=li,fi=si;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -814,7 +814,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Li=Ni,Ri=Li;/**
+*/var Li=Ni,Pi=Li;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -830,7 +830,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Pi=65535,Gi=Pi;/**
+*/var Ri=65535,Gi=Ri;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -862,7 +862,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Wi=Ri,F=Gi,D=Mi;function Ci(){var r,a;if(typeof D!="function")return!1;try{a=[1,3.14,-3.14,F+1,F+2],a=new D(a),r=Wi(a)&&a[0]===1&&a[1]===3&&a[2]===F-2&&a[3]===0&&a[4]===1}catch{r=!1}return r}var zi=Ci;/**
+*/var Wi=Pi,F=Gi,D=Mi;function Ci(){var r,a;if(typeof D!="function")return!1;try{a=[1,3.14,-3.14,F+1,F+2],a=new D(a),r=Wi(a)&&a[0]===1&&a[1]===3&&a[2]===F-2&&a[3]===0&&a[4]===1}catch{r=!1}return r}var zi=Ci;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1006,7 +1006,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var le=c,ve=p,se=new ve(1);new le(se.buffer);/**
+*/var ve=c,le=p,se=new le(1);new ve(se.buffer);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1166,7 +1166,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Le(r){return typeof r=="string"}var Re=Le;/**
+*/function Le(r){return typeof r=="string"}var Pe=Le;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -1182,7 +1182,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Pe=B,Ge=Math.abs,Ve=String.prototype.toLowerCase,Q=String.prototype.toUpperCase,f=String.prototype.replace,Me=/e\+(\d)$/,We=/e-(\d)$/,Ce=/^(\d+)$/,ze=/^(\d+)e/,De=/\.0$/,He=/\.0*e/,xe=/(\..*[^0])0*e/;function Xe(r){var a,e,i=parseFloat(r.arg);if(!isFinite(i)){if(!Pe(r.arg))throw new Error("invalid floating-point number. Value: "+e);i=r.arg}switch(r.specifier){case"e":case"E":e=i.toExponential(r.precision);break;case"f":case"F":e=i.toFixed(r.precision);break;case"g":case"G":Ge(i)<1e-4?(a=r.precision,a>0&&(a-=1),e=i.toExponential(a)):e=i.toPrecision(r.precision),r.alternate||(e=f.call(e,xe,"$1e"),e=f.call(e,He,"e"),e=f.call(e,De,""));break;default:throw new Error("invalid double notation. Value: "+r.specifier)}return e=f.call(e,Me,"e+0$1"),e=f.call(e,We,"e-0$1"),r.alternate&&(e=f.call(e,Ce,"$1."),e=f.call(e,ze,"$1.e")),i>=0&&r.sign&&(e=r.sign+e),e=r.specifier===Q.call(r.specifier)?Q.call(e):Ve.call(e),e}var Ze=Xe;/**
+*/var Re=B,Ge=Math.abs,Ve=String.prototype.toLowerCase,Q=String.prototype.toUpperCase,f=String.prototype.replace,Me=/e\+(\d)$/,We=/e-(\d)$/,Ce=/^(\d+)$/,ze=/^(\d+)e/,De=/\.0$/,He=/\.0*e/,xe=/(\..*[^0])0*e/;function Xe(r){var a,e,i=parseFloat(r.arg);if(!isFinite(i)){if(!Re(r.arg))throw new Error("invalid floating-point number. Value: "+e);i=r.arg}switch(r.specifier){case"e":case"E":e=i.toExponential(r.precision);break;case"f":case"F":e=i.toFixed(r.precision);break;case"g":case"G":Ge(i)<1e-4?(a=r.precision,a>0&&(a-=1),e=i.toExponential(a)):e=i.toPrecision(r.precision),r.alternate||(e=f.call(e,xe,"$1e"),e=f.call(e,He,"e"),e=f.call(e,De,""));break;default:throw new Error("invalid double notation. Value: "+r.specifier)}return e=f.call(e,Me,"e+0$1"),e=f.call(e,We,"e-0$1"),r.alternate&&(e=f.call(e,Ce,"$1."),e=f.call(e,ze,"$1.e")),i>=0&&r.sign&&(e=r.sign+e),e=r.specifier===Q.call(r.specifier)?Q.call(e):Ve.call(e),e}var Ze=Xe;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -1214,7 +1214,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Ye=Ne,qe=Re,Je=Ze,Ke=Be,Qe=q,ke=String.fromCharCode,b=isNaN,rn=Array.isArray;function an(r){var a={};return a.specifier=r.specifier,a.precision=r.precision===void 0?1:r.precision,a.width=r.width,a.flags=r.flags||"",a.mapping=r.mapping,a}function en(r){var a,e,i,n,t,o,l,v,u;if(!rn(r))throw new TypeError("invalid argument. First argument must be an array. Value: `"+r+"`.");for(o="",l=1,v=0;v<r.length;v++)if(i=r[v],qe(i))o+=i;else{if(a=i.precision!==void 0,i=an(i),!i.specifier)throw new TypeError("invalid argument. Token is missing `specifier` property. Index: `"+v+"`. Value: `"+i+"`.");for(i.mapping&&(l=i.mapping),e=i.flags,u=0;u<e.length;u++)switch(n=e.charAt(u),n){case" ":i.sign=" ";break;case"+":i.sign="+";break;case"-":i.padRight=!0,i.padZeros=!1;break;case"0":i.padZeros=e.indexOf("-")<0;break;case"#":i.alternate=!0;break;default:throw new Error("invalid flag: "+n)}if(i.width==="*"){if(i.width=parseInt(arguments[l],10),l+=1,b(i.width))throw new TypeError("the argument for * width at position "+l+" is not a number. Value: `"+i.width+"`.");i.width<0&&(i.padRight=!0,i.width=-i.width)}if(a&&i.precision==="*"){if(i.precision=parseInt(arguments[l],10),l+=1,b(i.precision))throw new TypeError("the argument for * precision at position "+l+" is not a number. Value: `"+i.precision+"`.");i.precision<0&&(i.precision=1,a=!1)}switch(i.arg=arguments[l],i.specifier){case"b":case"o":case"x":case"X":case"d":case"i":case"u":a&&(i.padZeros=!1),i.arg=Ye(i);break;case"s":i.maxWidth=a?i.precision:-1;break;case"c":if(!b(i.arg)){if(t=parseInt(i.arg,10),t<0||t>127)throw new Error("invalid character code. Value: "+i.arg);i.arg=b(t)?String(i.arg):ke(t)}break;case"e":case"E":case"f":case"F":case"g":case"G":a||(i.precision=6),i.arg=Je(i);break;default:throw new Error("invalid specifier: "+i.specifier)}i.maxWidth>=0&&i.arg.length>i.maxWidth&&(i.arg=i.arg.substring(0,i.maxWidth)),i.padZeros?i.arg=Qe(i.arg,i.width||i.precision,i.padRight):i.width&&(i.arg=Ke(i.arg,i.width,i.padRight)),o+=i.arg||"",l+=1}return o}var nn=en;/**
+*/var Ye=Ne,qe=Pe,Je=Ze,Ke=Be,Qe=q,ke=String.fromCharCode,b=isNaN,rn=Array.isArray;function an(r){var a={};return a.specifier=r.specifier,a.precision=r.precision===void 0?1:r.precision,a.width=r.width,a.flags=r.flags||"",a.mapping=r.mapping,a}function en(r){var a,e,i,n,t,o,v,l,u;if(!rn(r))throw new TypeError("invalid argument. First argument must be an array. Value: `"+r+"`.");for(o="",v=1,l=0;l<r.length;l++)if(i=r[l],qe(i))o+=i;else{if(a=i.precision!==void 0,i=an(i),!i.specifier)throw new TypeError("invalid argument. Token is missing `specifier` property. Index: `"+l+"`. Value: `"+i+"`.");for(i.mapping&&(v=i.mapping),e=i.flags,u=0;u<e.length;u++)switch(n=e.charAt(u),n){case" ":i.sign=" ";break;case"+":i.sign="+";break;case"-":i.padRight=!0,i.padZeros=!1;break;case"0":i.padZeros=e.indexOf("-")<0;break;case"#":i.alternate=!0;break;default:throw new Error("invalid flag: "+n)}if(i.width==="*"){if(i.width=parseInt(arguments[v],10),v+=1,b(i.width))throw new TypeError("the argument for * width at position "+v+" is not a number. Value: `"+i.width+"`.");i.width<0&&(i.padRight=!0,i.width=-i.width)}if(a&&i.precision==="*"){if(i.precision=parseInt(arguments[v],10),v+=1,b(i.precision))throw new TypeError("the argument for * precision at position "+v+" is not a number. Value: `"+i.precision+"`.");i.precision<0&&(i.precision=1,a=!1)}switch(i.arg=arguments[v],i.specifier){case"b":case"o":case"x":case"X":case"d":case"i":case"u":a&&(i.padZeros=!1),i.arg=Ye(i);break;case"s":i.maxWidth=a?i.precision:-1;break;case"c":if(!b(i.arg)){if(t=parseInt(i.arg,10),t<0||t>127)throw new Error("invalid character code. Value: "+i.arg);i.arg=b(t)?String(i.arg):ke(t)}break;case"e":case"E":case"f":case"F":case"g":case"G":a||(i.precision=6),i.arg=Je(i);break;default:throw new Error("invalid specifier: "+i.specifier)}i.maxWidth>=0&&i.arg.length>i.maxWidth&&(i.arg=i.arg.substring(0,i.maxWidth)),i.padZeros?i.arg=Qe(i.arg,i.width||i.precision,i.padRight):i.width&&(i.arg=Ke(i.arg,i.width,i.padRight)),o+=i.arg||"",v+=1}return o}var nn=en;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -1246,7 +1246,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var d=/%(?:([1-9]\d*)\$)?([0 +\-#]*)(\*|\d+)?(?:(\.)(\*|\d+)?)?[hlL]?([%A-Za-z])/g;function ln(r){var a={mapping:r[1]?parseInt(r[1],10):void 0,flags:r[2],width:r[3],precision:r[5],specifier:r[6]};return r[4]==="."&&r[5]===void 0&&(a.precision="1"),a}function vn(r){var a,e,i,n;for(e=[],n=0,i=d.exec(r);i;)a=r.slice(n,d.lastIndex-i[0].length),a.length&&e.push(a),e.push(ln(i)),n=d.lastIndex,i=d.exec(r);return a=r.slice(n),a.length&&e.push(a),e}var sn=vn;/**
+*/var d=/%(?:([1-9]\d*)\$)?([0 +\-#]*)(\*|\d+)?(?:(\.)(\*|\d+)?)?[hlL]?([%A-Za-z])/g;function vn(r){var a={mapping:r[1]?parseInt(r[1],10):void 0,flags:r[2],width:r[3],precision:r[5],specifier:r[6]};return r[4]==="."&&r[5]===void 0&&(a.precision="1"),a}function ln(r){var a,e,i,n;for(e=[],n=0,i=d.exec(r);i;)a=r.slice(n,d.lastIndex-i[0].length),a.length&&e.push(a),e.push(vn(i)),n=d.lastIndex,i=d.exec(r);return a=r.slice(n),a.length&&e.push(a),e}var sn=ln;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -1374,7 +1374,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Nn=On,R=Nn;/**
+*/var Nn=On,P=Nn;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1390,7 +1390,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Ln=X,tr,P,G;Ln===!0?(P=1,G=0):(P=0,G=1),tr={HIGH:P,LOW:G};var Rn=tr;/**
+*/var Ln=X,tr,R,G;Ln===!0?(R=1,G=0):(R=0,G=1),tr={HIGH:R,LOW:G};var Pn=tr;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1406,7 +1406,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Pn=c,Gn=p,or=Rn,lr=new Gn(1),vr=new Pn(lr.buffer),Vn=or.HIGH,Mn=or.LOW;function Wn(r,a,e,i){return lr[0]=r,a[i]=vr[Vn],a[i+e]=vr[Mn],a}var sr=Wn;/**
+*/var Rn=c,Gn=p,or=Pn,vr=new Gn(1),lr=new Rn(vr.buffer),Vn=or.HIGH,Mn=or.LOW;function Wn(r,a,e,i){return vr[0]=r,a[i]=lr[Vn],a[i+e]=lr[Mn],a}var sr=Wn;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1438,7 +1438,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Hn=R,xn=Dn,Xn=sr;Hn(xn,"assign",Xn);/**
+*/var Hn=P,xn=Dn,Xn=sr;Hn(xn,"assign",Xn);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1502,7 +1502,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var it=R,ur=at,et=fr;it(ur,"assign",et);var nt=ur;/**
+*/var it=P,ur=at,et=fr;it(ur,"assign",et);var nt=ur;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1550,7 +1550,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var lt=ot,vt=lt;/**
+*/var vt=ot,lt=vt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -1566,7 +1566,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var st=vt;function ft(r){return st(0,r)}var ut=ft;/**
+*/var st=lt;function ft(r){return st(0,r)}var ut=ft;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -1708,7 +1708,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Ut=R,Et=cr,Ft=It;Ut(Et,"factory",Ft);/**
+*/var Ut=P,Et=cr,Ft=It;Ut(Et,"factory",Ft);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1740,7 +1740,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Nt=Ot;function Lt(){var r;try{Nt('"use strict"; (function* () {})'),r=!0}catch{r=!1}return r}var Rt=Lt;/**
+*/var Nt=Ot;function Lt(){var r;try{Nt('"use strict"; (function* () {})'),r=!0}catch{r=!1}return r}var Pt=Lt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1756,7 +1756,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Pt=Rt,pr=Pt;/**
+*/var Rt=Pt,pr=Rt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -1788,4 +1788,4 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Vt=pr;Vt();function Mt(r,a){const e=new Uint32Array(1);crypto.getRandomValues(e);const i=e[0]/4294967296;return r=Math.ceil(r),a=Math.floor(a),Math.floor(i*(a-r+1))+r}function $r(r,a){return r.reduce((e,i)=>[...i.map((n,t)=>{const o=+n/a;return e[t]?e[t]+o:o})],[])}function yr(r,a){const e=r.map(i=>i/a*100);return r.map((i,n)=>({absolute:i,percent:e[n],dataName:n+1}),[])}function mr(r,a,e,i=0,n=""){return console.log("beginning randomResult"),new Array(r).fill(void 0).map(o=>{const v=new Array(a).fill(null).map(s=>n==="crypto"?Mt(1,e):Math.floor(Math.random()*e+1)).map(s=>{if(i===0)return s;const m=Math.random()*100;return s===e?s:m>100-i?e:s});return new Array(e).fill(void 0).map((s,m)=>v.filter(gr=>gr===m+1).length)})}onmessage=function(r){console.log("in web worker beginning");const{batchCount:a,rollCount:e,rangeCount:i,cheatDice:n}=r.data,t=mr(a,e,i,n),o=mr(a,e,i,n,"crypto"),l=$r(t,a),v=yr(l,e),u=$r(o,a),s=yr(u,e),m=l.map(gr=>e/i);postMessage({resArray:t,cryptographicResArray:o,chartData:v,cryptoChartData:s,expected:m}),console.log("in web worker end")}})();
+*/var Vt=pr;Vt();function Mt(r,a){const e=new Uint32Array(1);crypto.getRandomValues(e);const i=e[0]/4294967296;return r=Math.ceil(r),a=Math.floor(a),Math.floor(i*(a-r+1))+r}function $r(r,a){return r.reduce((e,i)=>[...i.map((n,t)=>{const o=+n/a;return e[t]?e[t]+o:o})],[])}function yr(r,a){const e=r.map(i=>i/a*100);return r.map((i,n)=>({absolute:i,percent:e[n],dataName:n+1}),[])}function mr(r,a,e,i=0,n=""){return new Array(r).fill(void 0).map(o=>{const l=new Array(a).fill(null).map(s=>n==="crypto"?Mt(1,e):Math.floor(Math.random()*e+1)).map(s=>{if(i===0)return s;const m=Math.random()*100;return s===e?s:m>100-i?e:s});return new Array(e).fill(void 0).map((s,m)=>l.filter(gr=>gr===m+1).length)})}onmessage=function(r){const{batchCount:a,rollCount:e,rangeCount:i,cheatDice:n}=r.data,t=mr(a,e,i,n),o=mr(a,e,i,n,"crypto"),v=$r(t,a),l=yr(v,e),u=$r(o,a),s=yr(u,e),m=v.map(gr=>e/i);postMessage({resArray:t,cryptographicResArray:o,chartData:l,cryptoChartData:s,expected:m})}})();
